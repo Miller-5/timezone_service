@@ -23,6 +23,6 @@ This service provides the time zone of an IP address. It is implemented as an HT
     ```bash
     docker run -p 5000:443 --env IPGEOLOCATION_API_KEY=[your-api-key] timezone_service
     ```
-4. Access the service at https://127.0.0.1:5000/timezone?ip=***[required-ip]***
+4. Access the service at https://127.0.0.1:5000/timezone?ip=[required-ip]
     * Replace ***[required-ip]*** with the ip you want to get the timezone of, for example:
         https://127.0.0.1:5000/timezone?ip=8.8.8.8
